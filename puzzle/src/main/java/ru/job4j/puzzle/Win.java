@@ -18,6 +18,7 @@ public class  Win {
             if (board[i][index] != 1) {
                 result = false;
                 break;
+
             }
         }
         return result;
