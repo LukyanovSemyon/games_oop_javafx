@@ -26,7 +26,7 @@ public final class Logic {
                 break;
             Cell figur = figures[index].position();
             for (int i = 0; i < steps.length; i++){
-                if(figur == steps[i]) {
+                if(figur.equals(steps[i])) {
                     throw new OccupiedCellException("Cell is occupied");
                 }
             }
